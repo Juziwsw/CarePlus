@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/style_margin_10"
+        android:background="@color/second_color">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/txt_size_14sp"
+            android:text="选择科室"/>
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@color/transparent"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_14sp"
+            android:text="取消"/>
+    </RelativeLayout>
+    <View style="@style/row_style_margin"/>
+    <ListView
+        android:id="@+id/list_kser_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/divider"
+        android:dividerHeight="0.5dp"
+        android:listSelector="@color/color667580" />
+</LinearLayout>
+<!-- From: file:/C:/Users/Administrator/Desktop/CarePlus/app/src/main/res/layout/select_keshi_er.xml -->

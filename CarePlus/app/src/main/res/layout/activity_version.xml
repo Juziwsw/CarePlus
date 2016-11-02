@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef">
+    <LinearLayout
+        android:id="@+id/layout_version_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_default_avatar"/>
+        <TextView
+            style="@style/auth_TextView_style"
+            android:layout_marginTop="10dp"
+            android:text="陪伴家(医生版)  0.0.1"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rel_version_test"
+        android:layout_below="@id/layout_version_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/white">
+        <TextView
+            style="@style/auth_TextView_style"
+            android:layout_centerVertical="true"
+            android:text="检查版本更新"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true">
+            <TextView
+                android:id="@+id/txt_version_no"
+                style="@style/auth_TextView_style"
+                android:layout_centerVertical="true"
+                android:textColor="@color/color999"
+                android:text="当前版本是最新版本"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow_next"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+        <TextView
+            style="@style/auth_TextView_style"
+            android:text="至人果网络公司  版权所有"/>
+        <TextView
+            style="@style/auth_TextView_style"
+            android:text="Copyright 2016-2016 zhirenguo"/>
+        <TextView
+            style="@style/auth_TextView_style"
+            android:text="All Rifhts Reserved"/>
+    </LinearLayout>
+</RelativeLayout>

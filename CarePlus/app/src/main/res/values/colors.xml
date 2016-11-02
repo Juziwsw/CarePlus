@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- init-->
+    <color name="primary_color">#f5f9fa</color>
+    <color name="color52c6cc">#52c6cc</color>
+    <color name="colora1abb3">#a1abb3</color>
+    <color name="color667580">#667580</color>
+    <color name="transparent">#00000000</color><!-- 透明 -->
+
+
+    <color name="second_color">#3d3437</color>
+    <color name="third_color">#0A939D</color>
+    <color name="bar_color">#2d2727</color>
+    <color name="window_bg_color">#dddddd</color>
+    <color name="black">#000000</color><!-- 黑色 -->
+    <color name="white">#ffffff</color><!-- 白色 -->
+    <color name="red">#ff0000</color><!-- 红色 -->
+    <color name="green">#00ff00</color><!-- 绿色 -->
+    <color name="blue">#0000ff</color><!-- 蓝色 -->
+    <color name="yellow">#fff000</color><!-- 黄色 -->
+    <color name="gray">#5d5558</color><!-- 灰色 -->
+    <color name="orangle">#dd6817</color><!-- 橙色 -->
+    <!-- config-->
+    <color name="round_corner_progress_bar_background_default">#5f5f5f</color>
+    <color name="round_corner_progress_bar_progress_default">#7f7f7f</color>
+    <color name="round_corner_progress_bar_secondary_progress_default">@android:color/transparent</color>
+    <color name="custom_progress_background">#9D5427</color>
+    <color name="custom_progress_red_progress">#E7F0BB</color>
+    <color name="custom_progress_red_progress_garden">#45CAF6</color>
+    <!-- self-->
+    <color name="divider">#bfbfbf</color>
+    <color name="colorf5f5f5">#f5f5f5</color>
+    <color name="color999">#999</color>
+    <color name="color666">#666</color>
+    <color name="color333">#333</color>
+    <color name="colorccc">#ccc</color>
+    <color name="color71c235">#71C235</color>
+    <color name="colorffa312">#ffa312</color>
+    <color name="colorfe4c4c">#fe4c4c</color>
+    <color name="colordf7204">#df7204</color>
+    <color name="colorfefaa5">#FEFAA5</color>
+    <color name="colorffff00">#ffff00</color>
+    <color name="colorf13335">#f13335</color>
+    <!-- drawable-->
+    <drawable name="primary_color">#ff6600</drawable>
+    <drawable name="second_color">#ff6600</drawable>
+    <drawable name="color52c6cc">#52c6cc</drawable>
+    <drawable name="transparent">#00000000</drawable><!-- 透明 -->
+    <drawable name="subtransparent">#40000000</drawable><!-- 半透明 -->
+    <!-- widget text color-->
+    <color name="edit_text_text_color">#000000</color>
+    <color name="edit_text_hint_color">#A1ABB3</color>
+    <color name="text_view_href_color">#4bb4ba</color>
+    <color name="check_box_text_color">#667580</color>
+</resources>

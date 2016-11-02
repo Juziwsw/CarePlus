@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\CarePlus\easeUI\unspecified\jars\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\org.apache.http.legacy-7031346a7111fc9f2c0a506de2aebee8410f288c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\libs\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-ce0b035aa5ca2596ed8ce02533e8245cea24d18a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\CarePlus\easeUI\unspecified\jars\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4647749a5d4ae1ded25f3ed7d8d04db865eb97b8">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-676f84ee9db1d53e8f0c256f43d90fce3fa09038.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\CarePlus\easeUI\unspecified\jars\libs\glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\glide-3.6.1-b59508b49211213c98cbc11622852627cf6f15d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-0be3016ebe8c4d47f78f64f2fbdc62d3d5305660.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\libs\universal-image-loader-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f667a2f4f27542fe11a6781f5f7ac572d27afcec">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.0-0ad828aa9f9f3f83e37dd288e226c0a514e16a31.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\classes-72a0db4b26b76632db66797b2af64acf411e4e26.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\CarePlus\easeUI\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f0d8e4a84fad131bc291c3c4850afcaa8ba0b299">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\google-play-services-4b7cc35ee3dde9f62ad829323298bd2c7c73b03c.jar" />
+    </item>
+    <item
+        jar="E:\Android Studio\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-7c7fb4610dbbfaa3ee9ad9d70d09b28367c24ef4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\CarePlus\easeUI\unspecified\jars\libs\easemobchat_2.2.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="77e3648d4d9fac24aa85a8d7f9bd45d05d19ab22">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\easemobchat_2.2.5-9d8f441df642f91eac8c7b1115f47bd5e7d208e1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\httpmime-4.1.3-edbc8b7630e37b9bb535894998cdd072a8322919.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\classes-7d56d1ee1063a40bf5114075ca3fe6fc93f290d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\CarePlus\easeUI\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e250281033b3638f3640ab816024e4b8e55e14c6">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\classes-ca2983509349e1f4f0c5d4a8fcf20d030f8ed8f2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\exploded-aar\CarePlus\easeUI\unspecified\jars\libs\MiPush_SDK_Client_2_2_19.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="01298c1280e97b7367a55252f66a8f19fd494d35">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\MiPush_SDK_Client_2_2_19-8a4a3a1ec2a659f549841f31676732466e3a2ea3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\Desktop\CarePlus\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="C:\Users\Administrator\Desktop\CarePlus\app\build\intermediates\pre-dexed\debug\volley-1b3fa8f0f54c9c2a7b627b9a01c1537c986deb57.jar" />
+    </item>
+
+</items>

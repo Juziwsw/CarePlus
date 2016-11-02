@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color666">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_redpackge"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never">
+    </android.support.v4.view.ViewPager>
+    <Button
+        android:id="@+id/btn_shoaphoto_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textColor="@color/white"
+        android:text="完成"
+        android:layout_alignParentRight="true"/>
+    <LinearLayout
+        android:id="@+id/layout_viewpager_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/CarePlus/app/src/main/res/layout/activity_show_photo.xml -->

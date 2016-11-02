@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="urlheader">http://192.168.1.64/zrmk/index.php</string>-->
+    <string name="urlheader">http://m.zhirenguo.com/zrmk/index.php</string>
+</resources>

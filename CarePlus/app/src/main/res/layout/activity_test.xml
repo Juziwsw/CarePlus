@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cn.com.cjland.careplus.activity.TestActivity">
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:visibility="gone"
+        android:text="几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点几点见弟弟都几点到家基地等娇滴滴的降低对降低几点"/>
+</RelativeLayout>

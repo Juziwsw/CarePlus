@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/second_color">
+    <ImageView
+        android:id="@+id/action_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/style_margin_10"
+        android:src="@drawable/ic_back"/>
+    <EditText
+        android:id="@+id/txt_auto_hos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="@dimen/style_margin_10"
+        android:background="#fff"
+        android:paddingLeft="5dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:singleLine="true"
+        android:imeOptions="actionSearch"
+        android:imeActionLabel="@string/action_next_seach"
+        android:inputType="text"
+        android:textCursorDrawable="@null"
+        android:textColor="@color/color667580"
+        android:hint="请输入医院名称"
+        android:textSize="@dimen/txt_size_14dp"
+        android:layout_centerVertical="true"/>
+</RelativeLayout>

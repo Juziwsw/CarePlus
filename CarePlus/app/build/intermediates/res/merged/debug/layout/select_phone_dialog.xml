@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/linearlayout_circular">
+            <Button
+                android:id="@+id/btn_phone_ghotograph"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="#FE4C4C"
+                android:textSize="14sp"
+                android:background="@color/transparent"
+                android:text="拍照"/>
+            <View style="@style/row_style_margin"/>
+            <Button
+                android:id="@+id/btn_photo_album"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="#FE4C4C"
+                android:textSize="14sp"
+                android:background="@color/transparent"
+                android:text="选择已有照片"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_photo_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:textColor="@color/color999"
+            android:textSize="14sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/linearlayout_circular"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/C:/Users/Administrator/Desktop/CarePlus/app/src/main/res/layout/select_phone_dialog.xml -->

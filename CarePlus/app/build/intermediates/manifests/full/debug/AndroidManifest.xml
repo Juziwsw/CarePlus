@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.com.cjland.careplus"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!-- 写权限 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!-- 读权限 -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- 使用时把cn.com.cjland.careplus替换成自己的包名 -->
+    <permission
+        android:name="cn.com.cjland.careplus.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="cn.com.cjland.careplus.permission.C2D_MESSAGE" />
+
+    <permission
+        android:name="cn.com.cjland.careplus.permission.MIPUSH_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="cn.com.cjland.careplus.permission.MIPUSH_RECEIVE" />
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="cn.com.cjland.careplus.application.CareApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+
+        <!-- 设置环信应用的appkey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="zhirennet#hxdemo" />
+        <!-- 声明sdk所需的service -->
+        <service
+            android:name="com.easemob.chat.EMChatService"
+            android:exported="true" />
+        <!-- 声明sdk所需的receiver -->
+        <receiver android:name="com.easemob.chat.EMMonitorReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <!-- 可选filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="cn.com.cjland.careplus.activity.MainActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <receiver android:name="cn.com.cjland.careplus.receiver.NetBroadcastReceiver" >
+
+            <!-- 继承BroadcastReceiver，重写onReceiver方法 -->
+            <intent-filter>
+                <action android:name="cn.com.cjland.careplus.net" />
+                <!-- 使用过滤器，接收指定action广播 -->
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="cn.com.cjland.careplus.activity.BaseActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.TestActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.com.cjland.careplus.activity.RegistActivity"
+            android:label="@string/title_activity_regist" />
+        <activity
+            android:name="cn.com.cjland.careplus.activity.ForgetPwdActivity"
+            android:label="@string/title_activity_forget_pwd" />
+        <activity
+            android:name="cn.com.cjland.careplus.activity.ChatActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
+        <activity android:name="cn.com.cjland.careplus.activity.AuthenticationActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.SelectHosActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.SelectKeshiActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.SelectZcActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.NewUserActivity" />
+        <activity
+            android:name="cn.com.cjland.careplus.activity.QaDetailsActivity"
+            android:label="@string/title_activity_qa_details" />
+        <activity
+            android:name="cn.com.cjland.careplus.activity.AnswerActivity"
+            android:label="@string/title_activity_answer" />
+        <activity android:name="cn.com.cjland.careplus.activity.SettingActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.FeekActivity" />
+        <activity android:name="cn.com.cjland.careplus.activity.VersionActivity" />
+        <activity
+            android:name="cn.com.cjland.careplus.activity.ShowPhotoActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" />
+    </application>
+
+</manifest>

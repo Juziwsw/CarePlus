@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ContactItemView">
+        <attr name="contactItemImage" format="reference"/>
+        <attr name="contactItemName" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RoundCornerProgress">
+        <attr name="rcReverse" format="boolean" />
+        <attr name="rcProgress" format="float" />
+        <attr name="rcMax" format="float" />
+        <attr name="rcSecondaryProgress" format="float" />
+        <attr name="rcBackgroundPadding" format="dimension" />
+        <attr name="rcRadius" format="dimension" />
+        <attr name="rcProgressColor" format="color" />
+        <attr name="rcSecondaryProgressColor" format="color" />
+        <attr name="rcBackgroundColor" format="color" />
+    </declare-styleable>
+    <string-array name="keshi">
+        <item>内科</item>
+        <item>外科</item>
+        <item>骨伤科</item>
+        <item>妇科</item>
+        <item>儿科</item>
+        <item>男科</item>
+        <item>皮肤性病科</item>
+        <item>眼科</item>
+        <item>耳鼻咽喉科</item>
+        <item>口腔额面科</item>
+        <item>整形美容科</item>
+        <item>肿瘤及防治科</item>
+        <item>精神心理科</item>
+        <item>中医科</item>
+        <item>营养科</item>
+        <item>报告解读科</item>
+    </string-array>
+    <string-array name="keshi1">
+        <item>呼吸内科</item>
+        <item>心血管内科</item>
+        <item>神经内科</item>
+        <item>消化内科</item>
+        <item>肾内科</item>
+        <item>男内科</item>
+        <item>内分泌与代谢科</item>
+        <item>风湿免疫科</item>
+        <item>血液病科</item>
+        <item>感染病科</item>
+    </string-array>
+    <string-array name="keshi2">
+        <item>胸外科</item>
+        <item>心脏与血管外科</item>
+        <item>神经外科</item>
+        <item>肝胆外科</item>
+        <item>烧伤科</item>
+        <item>康复科</item>
+        <item>泌尿外科</item>
+        <item>肛肠科</item>
+        <item>普外科</item>
+        <item>甲状腺乳腺外科</item>
+    </string-array>
+    <string-array name="keshi3">
+        <item>脊柱科</item>
+        <item>关节科</item>
+        <item>创伤科</item>
+    </string-array>
+    <string-array name="keshi4">
+        <item>小儿科</item>
+        <item>新生儿科</item>
+    </string-array>
+    <string-array name="keshi5">
+        <item>皮肤科</item>
+        <item>性病科</item>
+    </string-array>
+    <string-array name="keshi6">
+        <item>耳科</item>
+        <item>鼻科</item>
+        <item>咽喉科</item>
+    </string-array>
+    <string-array name="keshi7">
+        <item>肿瘤内科</item>
+        <item>肿瘤外科</item>
+        <item>介入与放疗中心科</item>
+        <item>肿瘤中医科</item>
+    </string-array>
+    <string-array name="keshi8">
+        <item>精神科</item>
+        <item>心理科</item>
+    </string-array>
+    <string-array name="keshi9">
+        <item>中医内科</item>
+        <item>中医外科</item>
+        <item>中医妇科</item>
+        <item>中医男科</item>
+        <item>中医儿科</item>
+    </string-array>
+    <string-array name="keshi10">
+        <item>检验科</item>
+        <item>放射科</item>
+        <item>内镜科</item>
+        <item>病理科</item>
+        <item>心电图科</item>
+        <item>超声科</item>
+        <item>麻醉科</item>
+        <item>体验中心</item>
+        <item>预防保健科</item>
+    </string-array>
+    <string-array name="zhicheng">
+        <item>任院医师</item>
+        <item>主治医师</item>
+        <item>副主任医师</item>
+        <item>主任医师</item>
+    </string-array>
+</resources>

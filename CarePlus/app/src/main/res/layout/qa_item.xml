@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_view_href_color"
+        android:text="允贤"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="回复"/>
+    <TextView
+        android:id="@+id/tv_tb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_view_href_color"
+        android:text="佚名"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="："/>
+    <TextView
+        android:id="@+id/tv_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天上掉下个林妹妹，似一朵轻云刚出岫，只道他腹内草莽人轻浮，却原来骨骼清奇非俗流……"/>
+</LinearLayout>

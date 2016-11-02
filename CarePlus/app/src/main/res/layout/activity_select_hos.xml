@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef">
+    <LinearLayout
+        android:id="@+id/layout_nodata_war"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_010"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/txt_size_14sp"
+            android:textColor="@color/color999"
+            android:text="暂无数据"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/list_hos_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/divider"
+        android:dividerHeight="0.5dp"
+        android:listSelector="@color/color667580"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/txt_no_hos"
+        android:layout_alignParentBottom="true"
+        android:padding="13dp"
+        android:background="@color/second_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_14sp"
+        android:text="没有我所在的医院，点击添加"/>
+</RelativeLayout>
